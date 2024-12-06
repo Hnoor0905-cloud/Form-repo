@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        fieldset{
+            display: inline-block;
+        }
+        div{
+            display: flex;
+            gap: 5px;
+        }
+        .input1{
+            width: 3px;
+            height: 10px;
+            border-radius: 2px;
+        }
+    </style>
+    <div><a href="./index1.html">
+        <button style="background-color: #ACF1AC; border: none; cursor: pointer;" ><p>Step 1: Account</p></button>
+        </a>
+        <a href="./index2.html">
+        <button style="background-color: #87CEFA; border: none; cursor: pointer;"><p>Step 2: Personal Details</p></button>
+        </a>
+        <a href="./index3.html">
+        <button style="border: none; cursor: pointer;"><p>Step 3: Your Review</p></button>
+        </a>
+    </div><br>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="" method="post">
+            <label for="First Name">First Name:</label><br>
+            <input id="First Name" placeholder="Enter First Name" name="userName" type="Name" required><br><br>
+
+            <label for="Last Name">Last Name:</label><br>
+            <input id="Last Name" placeholder="Enter Last Name" name="userName" type="text" required><br><br>
+
+            <label for="CNIC">CNIC</label><br>
+            <div>
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <span>-</span>
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <input class="input1" type="number">
+                <span>-</span>
+                <input class="input1" type="number">
+            </div>
+            <br>
+            <label for="Social Links">Social Links:</label><br>
+            <input size="30" id="Social Links" placeholder="Enter facebook/linkedIn Profile Here" type="text">
+            <br><br>
+
+            <a href="./index1.html">
+                <button style="background: none; border: none; cursor: pointer;" type="button" title="back to index1">
+                    <img src="./photos/back.png" alt="img" width="100px" height="25px">
+                </button>
+            </a>
+
+            <a href="./index3.html">
+                <button style="background: none; border: none; cursor: pointer;" type="button" title="go to next Page">
+                    <img src="./photos/next.PNG" alt="img" width="100px" height="25px">
+                </button>
+            </a>
+        </form>
+    </fieldset>
+</body>
+</html>

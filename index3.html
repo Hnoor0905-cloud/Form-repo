@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        fieldset{
+            display: inline-block;
+        }
+    </style>
+    <div><a href="./index1.html">
+        <button style="background-color: #ACF1AC; border: none; cursor: pointer;" ><p>Step 1: Account</p></button>
+        </a>
+        <a href="./index2.html">
+            <button style="background-color: #ACF1AC; border: none; cursor: pointer;"><p>Step 2: Personal Details</p></button>
+        </a>
+        <a href="./index3.html">
+            <button style="background-color: #87CEFA; border: none; cursor: pointer;"><p>Step 3: Your Review</p></button>
+        </a>
+    </div><br>
+    <fieldset>
+        <legend>Your Review</legend>
+        <form action="" method="post">
+            <label>How did you hear about us?</label>
+            <select name="Institute">
+                <option selected disabled value="no value">Select Your Option</option>
+                <option value="Web development">Web development</option>
+                <option value="Digital marketing">Digital marketing</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="UI/UX Design">UI/UX Design</option>
+                <option value="Data Science and Analytics">Data Science and Analytics</option>
+            </select><br><br><br>
+            <label>Would you visit again?</label><br>
+            <input value="Yes" name="checkbox" type="radio">Yes
+            <input value="No" name="checkbox" type="radio">No
+            <input value="Maybe" name="checkbox" type="radio">Maybe
+            <br><br><br>
+            <label>comments:</label><br>
+            <textarea name="textarea" rows="8" cols="20"></textarea><br><br>
+            <label>Documents:</label><br><br>
+            <input type="file">
+            <br><br>
+            <input type="checkbox">
+            <label>Sign me up for email address</label>
+            <a href="./index2.html">
+                <br><br>
+                <button style="background: none; border: none; cursor: pointer;" type="button" title="back to index2">
+                    <img src="./photos/back.png" alt="img" width="100px" height="25px">
+                </button>
+            </a>
+            <a href="./index4.html">
+                <button style="background: none; border: none; cursor: pointer;" type="button" title="go to next Page">
+                    <img src="./photos/submit.png" alt="img" width="100px" height="25px">
+                </button>
+            </a>
+        </form>
+    </fieldset>
+</body>
+</html>
